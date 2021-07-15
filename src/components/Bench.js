@@ -1,4 +1,4 @@
-import benchPic from "../images/bench.png";
+import benchPic from "../images/bench.jpeg";
 function Bench() {
 	return (
 		<div>
