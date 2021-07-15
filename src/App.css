@@ -115,8 +115,17 @@ input {
 	color: #012f6a;
 	justify-content: space-between;
 }
-.footer > div {
-	margin-left: 10px;
+.footer-1 {
+	display: flex;
+}
+.footer-2 {
+	display: flex;
+}
+.footer-1 > div {
+	margin: 0 10px;
+}
+.footer-2 > div {
+	margin: 0 10px;
 }
 .daisy {
 	height: 150px;
@@ -178,6 +187,14 @@ input {
 	.footer {
 		display: flex;
 		flex-direction: column;
+	}
+	.footer-1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.footer-2 {
+		display: flex;
+		margin-top: 10px;
 	}
 	.map {
 		margin: 0;
