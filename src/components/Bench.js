@@ -7,7 +7,7 @@ function Bench() {
 				<br /> Please click the bench to download the sketch
 			</h2>
 			<a href={benchPic} download>
-				<img src={benchPic} />
+				<img className="bench-pic" src={benchPic} />
 			</a>
 		</div>
 	);

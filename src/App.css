@@ -167,6 +167,10 @@ input {
 	display: flex;
 	justify-content: space-around;
 }
+.bench-pic {
+	width: 80%;
+	height: 80%;
+}
 
 @media only screen and (max-width: 480px) {
 	body {
