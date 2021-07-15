@@ -3,10 +3,9 @@ function Footer() {
 		<div className="footer">
 			<div className="footer-1">
 				<div>
-					<i class="far fa-copyright"></i>Российский культурный центр в
-					Тель-Авиве <br />
+					<i class="far fa-copyright"></i>Русский дом в Тель-Авиве <br />
 					<i class="far fa-copyright"></i>
-					Russian cultural center in Tel Aviv
+					Russian house in Tel Aviv
 				</div>
 				<div>
 					<i class="fas fa-map-marker-alt"></i>Израиль, 6330440, г. Тель-Авив,
