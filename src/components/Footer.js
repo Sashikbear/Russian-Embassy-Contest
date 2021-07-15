@@ -4,18 +4,24 @@ function Footer() {
 			<div className="footer-1">
 				<div>
 					<i class="far fa-copyright"></i>Российский культурный центр в
-					Тель-Авиве
+					Тель-Авиве <br />
+					<i class="far fa-copyright"></i>
+					Russian cultural center in Tel Aviv
 				</div>
 				<div>
 					<i class="fas fa-map-marker-alt"></i>Израиль, 6330440, г. Тель-Авив,
 					ул. Геула, д. 38
+					<br />
+					<i class="fas fa-map-marker-alt"></i> Israel, 6330440, Tel Aviv, Geula
+					St., 38
 				</div>
 				<div>
 					<a
 						style={{ textDecoration: "none", color: "#012f6a" }}
 						href="https://isr.rs.gov.ru/ru/contacts/48"
 					>
-						<i class="fas fa-at"></i>Контактная информация
+						<i class="fas fa-at"></i>Контактная информация <br />{" "}
+						<i class="fas fa-at"></i>Contact information
 					</a>
 				</div>
 			</div>

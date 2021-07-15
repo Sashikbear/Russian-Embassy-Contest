@@ -14,7 +14,11 @@ function Home() {
 	}
 	return (
 		<div className="Home">
-			<h1>Осторожно, окрашено в любовь!</h1>
+			<h1>
+				Осторожно, окрашено в любовь!
+				<br />
+				Caution, painted in love!
+			</h1>
 			<div className="main-article">
 				{/* <div>
 					<img className="daisy" src={daisy} />
@@ -23,7 +27,7 @@ function Home() {
 					В честь Дня любви, семьи и верности и еврейского праздника любви Ту
 					бе-Ав Русский дом в Тель-Авиве анонсирует проведение художественного
 					флешмоба-конкурса на лучший эскиз раскрашивания скамейки в одном из
-					центральных мест Тель-Авива, Нетании и других городов Израиля.
+					центральных мест Тель-Авива, Нетании и Хайфы.
 					<br />
 					Победитель конкурса получит возможность воплотить свою художественную
 					идею в жизнь с помощью профессиональных художников. Скамейка
@@ -31,18 +35,13 @@ function Home() {
 					будет сделать памятные фото в течение нескольких недель.
 					<br />
 					Конкурс проводится совместно с Объединением профессиональных
-					художников Израиля при поддержке городских муниципалитетов. Положение
-					конкурса и другие подробности будут опубликованы в ближайшее время.
-					Следите за нашими сообщениями в{" "}
-					<a
-						className="nav-item"
-						href="https://www.facebook.com/russianhouse.tlv/"
-					>
-						социальных сетях.
-					</a>
+					художников Израиля при поддержке городских муниципалитетов.
 				</div>
 			</div>
-			<h2>Наши скамейки:</h2>
+			<h2>
+				Наши скамейки:
+				<br /> Our benches:
+			</h2>
 			<div className="map-wrapper">
 				<div className="map-area">
 					<select
@@ -52,13 +51,13 @@ function Home() {
 						value={mapSrc}
 					>
 						<option value="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.0749712809434!2d34.77580681554478!3d32.067220927142316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b7e9e3887f9%3A0x2a21f70d8eb9ed47!2sRothschild%20Blvd%2094%2C%20Tel%20Aviv-Yafo!5e0!3m2!1sen!2sil!4v1626339458770!5m2!1sen!2sil">
-							Тель-Авив
+							Тель-Авив / Tel Aviv
 						</option>
 						<option value="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.9225362374764!2d34.85287934420261!3d32.34078909100953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d6ab0e8d0311b%3A0x7a0a5b0924e88ae7!2sNitsa%20Blvd%2026%2C%20Netanya!5e0!3m2!1sen!2sil!4v1626347648715!5m2!1sen!2sil">
-							Нетания
+							Нетания / Netanya
 						</option>
 						<option value="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.1059992511323!2d34.990372215557294!3d32.815956289305255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dbbb4faed49cd%3A0x5881a7815b4a1bba!2sHaGefen%20St%202%2C%20Haifa!5e0!3m2!1sen!2sil!4v1626339595436!5m2!1sen!2sil">
-							Хайфа
+							Хайфа / Haifa
 						</option>
 					</select>
 					<iframe
@@ -79,7 +78,7 @@ function Home() {
 						style={{ textDecoration: "none" }}
 						className="button"
 					>
-						Принять участие
+						Принять участие <br /> Become a participant
 					</Link>
 				</div>
 				<div className="partner-wrapper">

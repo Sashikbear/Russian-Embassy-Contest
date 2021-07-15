@@ -25,6 +25,7 @@ function Navbar() {
 					className="nav-item"
 				>
 					О конкурсе
+					<br /> About the contest
 				</Link>
 				<Link
 					to={{
@@ -34,6 +35,7 @@ function Navbar() {
 					className="nav-item"
 				>
 					Правила проведения конкурса
+					<br /> Rules of the contest
 				</Link>
 				<Link
 					to={{
@@ -42,7 +44,7 @@ function Navbar() {
 					style={{ textDecoration: "none" }}
 					className="nav-item"
 				>
-					Эскиз скамейки
+					Эскиз скамейки <br /> Bench sketch
 				</Link>
 				<Link
 					to={{
@@ -52,6 +54,7 @@ function Navbar() {
 					className="nav-item"
 				>
 					Принять участие
+					<br /> Become a participant
 				</Link>
 			</div>
 			<div className="desktop-logo">

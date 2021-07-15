@@ -107,14 +107,17 @@ function Form() {
 					method="post"
 					onSubmit={handleSubmit}
 				>
-					<h1>Принять участие</h1>
+					<h1>
+						Принять участие <br />
+						Become a participant
+					</h1>
 					<div className="form">
 						<input
 							required
 							className="input"
 							type="text"
 							name="firstName"
-							placeholder="Имя"
+							placeholder="Имя / First Name"
 							onInput={handleFirstNameChange}
 						/>
 						<input
@@ -122,7 +125,7 @@ function Form() {
 							className="input"
 							type="text"
 							name="lastName"
-							placeholder="Фамилия"
+							placeholder="Фамилия / Last Name"
 							onInput={handleLastNameChange}
 						/>
 						<input
@@ -130,7 +133,7 @@ function Form() {
 							className="input"
 							type="number"
 							name="age"
-							placeholder="Возраст"
+							placeholder="Возраст / Age"
 							onInput={handleAgeChange}
 						/>
 						<input
@@ -138,7 +141,7 @@ function Form() {
 							className="input"
 							type="email"
 							name="email"
-							placeholder="Адрес электронной почты"
+							placeholder="Адрес электронной почты / Email address"
 							onInput={handleEmailChange}
 						/>
 						<PhoneInput
@@ -149,11 +152,11 @@ function Form() {
 							className="input"
 							type="text"
 							name="phoneNumber"
-							placeholder="Номер телефона"
+							placeholder="Номер телефона / Phone number"
 							onInput={handlePhoneNumberChange}
 						/>
 						<label for="locations" className="main-text">
-							Моя скамейка находится в:
+							Моя скамейка находится в: <br /> My bench is located in:
 						</label>
 						<select
 							className="input"
@@ -162,12 +165,14 @@ function Form() {
 							onChange={handleLocationChange}
 							value={location}
 						>
-							<option value="Тель-Авив">Тель-Авив</option>
-							<option value="Нетания">Нетания</option>
-							<option value="Хайфа">Хайфа</option>
+							<option value="Тель-Авив">Тель-Авив / Tel Aviv</option>
+							<option value="Нетания">Нетания / Netanya</option>
+							<option value="Хайфа">Хайфа / Haifa</option>
 						</select>
 					</div>
-					<p className="main-text">Дополнительная информация</p>
+					<p className="main-text">
+						Дополнительная информация <br /> Additional information
+					</p>
 					<div>
 						<textarea
 							className="textarea"
@@ -178,7 +183,9 @@ function Form() {
 					</div>
 					<div>
 						<label className="main-text">
-							Прикрепить файл с дизайном (допустимы форматы png, jpeg, heic):
+							Прикрепить файл с дизайном (допустимы форматы png, jpeg, heic)
+							<br /> Attach design file (permitted formats png, jpeg, heic)
+							<br />
 						</label>
 						<input
 							type="file"
@@ -188,6 +195,7 @@ function Form() {
 					</div>
 					<button className="button" type="submit">
 						Отправить заявку
+						<br /> Submit
 					</button>
 					<Recaptcha
 						sitekey="6LdHboIbAAAAAGIoj6lN_SWUoAQvIkY-S9rY4RaY"
