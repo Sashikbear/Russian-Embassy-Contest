@@ -4,10 +4,17 @@ import daisy from "../images/daisy.jpeg";
 function Navbar() {
 	return (
 		<div className="navbar">
-			<div>
-				<a className="link-logo" href="https://isr.rs.gov.ru/ru">
-					<img className="logo" src={logo} />
-				</a>
+			<div className="mobile-wrapper">
+				<div>
+					<a className="link-logo" href="https://isr.rs.gov.ru/ru">
+						<img className="logo" src={logo} />
+					</a>
+				</div>
+				<div className="mobile-logo">
+					<a className="link-logo" href="https://densemyi.ru">
+						<img className="logo" src={daisy} />
+					</a>
+				</div>
 			</div>
 			<div className="links">
 				<Link
@@ -47,8 +54,8 @@ function Navbar() {
 					Принять участие
 				</Link>
 			</div>
-			<div>
-				<a className="link-logo" href="https://densemyi.ru">
+			<div className="desktop-logo">
+				<a href="https://densemyi.ru">
 					<img className="logo" src={daisy} />
 				</a>
 			</div>

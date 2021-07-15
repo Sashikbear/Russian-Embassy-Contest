@@ -55,7 +55,7 @@ function Home() {
 							Тель-Авив
 						</option>
 						<option value="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.9225362374764!2d34.85287934420261!3d32.34078909100953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d6ab0e8d0311b%3A0x7a0a5b0924e88ae7!2sNitsa%20Blvd%2026%2C%20Netanya!5e0!3m2!1sen!2sil!4v1626347648715!5m2!1sen!2sil">
-							Натания
+							Нетания
 						</option>
 						<option value="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.1059992511323!2d34.990372215557294!3d32.815956289305255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dbbb4faed49cd%3A0x5881a7815b4a1bba!2sHaGefen%20St%202%2C%20Haifa!5e0!3m2!1sen!2sil!4v1626339595436!5m2!1sen!2sil">
 							Хайфа
@@ -83,10 +83,14 @@ function Home() {
 					</Link>
 				</div>
 				<div className="partner-wrapper">
-					<img className="partner-logo-tlv" src={telAviv} />
-					<img className="partner-logo-ntn" src={netaniya} />
-					<img className="partner-logo" src={haifa} />
-					<img className="partner-logo" src={artistUnion} />
+					<div className="partner-subwrapper">
+						<img className="partner-logo-tlv" src={telAviv} />
+						<img className="partner-logo-ntn" src={netaniya} />
+					</div>
+					<div className="partner-subwrapper">
+						<img className="partner-logo" src={haifa} />
+						<img className="partner-logo" src={artistUnion} />
+					</div>
 				</div>
 			</div>
 		</div>
